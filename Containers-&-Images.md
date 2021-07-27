@@ -1,11 +1,11 @@
-### ---Docker Setup---
+### Docker Setup
 #### Install Docker: 	
-`yum install docker -y`
-#Enable Docker:		
-`systemctl enable docker`
-#Start Docker:		
-`systemctl start docker`
-# Check Docker service:		
+```yum install docker -y```
+#### Enable Docker:		
+```systemctl enable docker````
+#### Start Docker:		
+```systemctl start docker```
+#### Check Docker service:		
 systemctl status docker
 # Add user to group
 sudo usermod -a -G docker ec2-user
