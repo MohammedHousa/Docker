@@ -2,7 +2,7 @@
 #### Install Docker: 	
 ```yum install docker -y```
 #### Enable Docker:		
-```systemctl enable docker````
+```systemctl enable docker```
 #### Start Docker:		
 ```systemctl start docker```
 #### Check Docker service:		
