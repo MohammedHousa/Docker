@@ -1,4 +1,4 @@
-# ---Docker Setup---
+### ---Docker Setup---
 #Install Docker: 	
 yum install docker -y
 #Enable Docker:		
