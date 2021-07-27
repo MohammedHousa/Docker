@@ -1,10 +1,10 @@
 ### ---Docker Setup---
-#Install Docker: 	
-yum install docker -y
+#### Install Docker: 	
+`yum install docker -y`
 #Enable Docker:		
-systemctl enable docker
+`systemctl enable docker`
 #Start Docker:		
-systemctl start docker
+`systemctl start docker`
 # Check Docker service:		
 systemctl status docker
 # Add user to group
