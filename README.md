@@ -96,24 +96,16 @@ ENV name DevOps
 #### To access the container ```http://publicIP:8080```
 
 ## ---Docker Swarm---
-## Docker swarm is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines. One of the key benefits associated with the operation of a docker swarm is the high level of availability offered for applications.
+Docker swarm is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines. One of the key benefits associated with the operation of a docker swarm is the high level of availability offered for applications.
 | Purpose | Command |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| | docker swarm init |
+| | docker swarm leave --force |
+| | dokcer node ls |
+| | docker node promote <node> |
+| | docker node demote <node> |
+| | docker service create alpine ping 8.8.8.8 |
+| | docker service ls |
+| | docker service ps <service name> |
+| | docker service update <service ID> --replicas 3 |
 
