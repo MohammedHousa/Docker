@@ -51,7 +51,7 @@ Containers are isolated execution environments.
 | Stop container | ```docker stop <container>``` |
 | Start container | ```docker start <continer>``` |
 | Restart container | ```docker restart <container>``` |
-| Create a container with a link | ```docker run -it -d --name server2 --link service2 ubuntu``` |
+| Create a container with a link | ```docker run -it -d --name service2 --link service1 ubuntu``` |
 | Execute container | ```docker exec -it <container> bash``` |
 | Create an image from a container | ```docker commit <container> <new-img-name>``` |
 | Remove container | ```docker rm <container>``` |
