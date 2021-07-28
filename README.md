@@ -61,13 +61,13 @@ Tutorials:
 ## ---Docker Storage---
 | Purpose | Command |
 | --- | --- |
-| Create a volume | docker volume create <vol name> |
-| List volumes | docker volume ls |
-| Inspect a volume | docker volume inspect <vol name> |
-| Remove a volume | docker volume rm <vol name> |
-| Start a container with a new volume | docker run -d --name devtest --mount source=myvol2,target=/app nginx:latest |
-| Start a container with an existing volume | docker run -d --name devtest -v /home/ec2-user/storage:/mount ubuntu |
-| Remove unused volumes| docker volume prune|
+| Create a volume | ```docker volume create <vol name>``` |
+| List volumes | ```docker volume ls``` |
+| Inspect a volume | ```docker volume inspect <vol name>``` |
+| Remove a volume | ```docker volume rm <vol name>``` |
+| Start a container with a new volume | ```docker run -d --name devtest --mount source=myvol2,target=/app nginx:latest``` |
+| Start a container with an existing volume | ```docker run -d --name devtest -v /home/ec2-user/storage:/mount ubuntu``` |
+| Remove unused volumes| ```docker volume prune```|
 
 ## ---Docker File---
 #### Create a dockerfile ```vim dockerfile```
