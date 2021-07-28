@@ -4,13 +4,12 @@ Docker is a set of platform as a service products that use OS-level virtualizati
 GitHub Repo: 
 
 Tutorials:
-1. [How to Install Docker on Linux](https://github.com/MohammedHousa/Docker/blob/main/README.md#---install-docker---)
-2. [How to work with Docker Images](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-images---)
-3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-containers---)
-4. [How to work with Docker Storage](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-storage---)
-6. [How to work with Docker File](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-file---)
-7. [How to work with Docker Compose](https://github.com/chandradeoarya/docker-flask)
-8. [How to work wiht Docker Swarm](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-swarm---)
+1. [How to Install Docker on Linux](https://github.com/MohammedHousa/Docker/blob/main/README.md#install-docker)
+2. [How to work with Docker Images](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-images)
+3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-containers)
+4. [How to work with Docker Storage](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-storage)
+6. [How to work with Docker File](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-file)
+7. [How to work wiht Docker Swarm](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-swarm)
 
 
 
