@@ -22,7 +22,7 @@ Tutorials:
 | Enable Docker Service | ```systemctl enable docker``` |
 | Start Docker Service | ```systemctl start docker``` |
 | Check Docker service | ```systemctl status docker``` |
-| Add user to group | ```sudo usermod -a -G docker ec2-user``` |
+| Add user to group | ```usermod -a -G docker ec2-user``` |
 | Check Docker Version | ```docker version``` |
 | Check Docker Info | ```docker info``` |
 | Login to DockerHub | ```docker login```|
@@ -71,15 +71,30 @@ Tutorials:
 | Remove unused volumes| docker volume prune|
 
 ## ---Dockre File---
-#### Build an image:
+#### Create a dockerfile ```vim dockerfile```
+```
+FROM ubuntu
+ARG DEBIAN_FRONTEND=noninteractive
+RUN apt update -y
+RUN apt install -y apache2
+ADD . /var/www/html
+ENTRYPOINT apachectl -D FOREGROUND
+ENV name DevOps 
+```
+  
+#### Create an index.html file ```vim index.html```
+```
+<html>
+<title> Hello from CodingDojo </title>
+<body> Hello world! </body>
+</html>
+```
 | Purpose | Command |
 | --- | --- |
-| | ```docker build -t <img-name:v1> . ``` |
-| | |
-| | |
-| | |
-| | |
-| | |
+| Build an image from dockerfile| ```docker build -t dockerfile . ``` |
+| Create a container form the image | docker run -d -p 8080:80 demodockerfile |
+
+#### To access the container ```http://publicIP:8080```
 
 
 
