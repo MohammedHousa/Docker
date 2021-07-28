@@ -9,12 +9,11 @@ Tutorials:
 3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-containers---)
 4. [How to work with Docker Storage](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-storage---)
 6. [How to work with Docker File](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-file---)
-7. How to work with Docker Compose
-8. How to work wiht Docker Swarm
+7. [How to work with Docker Compose](https://github.com/chandradeoarya/docker-flask)
+8. [How to work wiht Docker Swarm](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-swarm---)
 
 
 ## ---Install Docker---
-
 | Purpose | Command |
 | --- | --- |
 | Install Docker | ```yum install docker -y``` |
@@ -59,6 +58,7 @@ Tutorials:
 
 
 ## ---Docker Storage---
+Docker has two options for containers to store files in the host machine, so that the files are persisted even after the container stops: volumes, and bind mounts.
 | Purpose | Command |
 | --- | --- |
 | Create a volume | ```docker volume create <vol name>``` |
@@ -95,7 +95,10 @@ ENV name DevOps
 
 #### To access the container ```http://publicIP:8080```
 
-
+## ---Docker Swarm---
+## Docker swarm is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines. One of the key benefits associated with the operation of a docker swarm is the high level of availability offered for applications.
+| Purpose | Command |
+| --- | --- |
 
 
 
