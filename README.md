@@ -108,13 +108,13 @@ Docker swarm is a container orchestration tool, meaning that it allows the user 
 | Purpose | Command |
 | --- | --- |
 | Initialize a swarm | docker swarm init |
-| Join a node to a swarm | docker swarm join --token <token> HOST:PORT |
-| Leaves the swarm | docker swarm leave --force |
-| List nodes in the swarm | dokcer node ls |
-| Promote node to manager | docker node promote <node> |
-| Demote node from manager | docker node demote <node> |
-| Creates a service | docker service create alpine ping 8.8.8.8 |
-| List services| docker service ls |
-| Lists the tasks that are running | docker service ps <service name> |
-| Updates a service | docker service update <service ID> --replicas 3 |
+| Join a node to a swarm | ```docker swarm join --token <token> HOST:PORT``` |
+| Leaves the swarm | ```docker swarm leave --force``` |
+| List nodes in the swarm | ```dokcer node ls``` |
+| Promote node to manager | ```docker node promote <node>``` |
+| Demote node from manager | ```docker node demote <node>``` |
+| Creates a service | ```docker service create alpine ping 8.8.8.8``` |
+| List services| ```docker service ls``` |
+| Lists the tasks that are running | ```docker service ps <service name>``` |
+| Updates a service | ```docker service update <service ID> --replicas 3``` |
 
