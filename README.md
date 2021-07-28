@@ -5,11 +5,10 @@ GitHub Repo:
 
 Tutorials:
 1. [How to Install Docker on Linux](https://github.com/MohammedHousa/Docker/blob/main/README.md#---install-docker---)
-2. How to work with Docker Images
-3. How to work with Docker Containers
-4. How to work with Docker Storage
-5. How to work with Docker Network
-6. How to work with Docker File
+2. [How to work with Docker Images](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-images---)
+3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-container---)
+4. [How to work with Docker Storage](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-storage---)
+6. [How to work with Docker File](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-file---)
 7. How to work with Docker Compose
 8. How to work wiht Docker Swarm
 
@@ -59,7 +58,7 @@ Tutorials:
 | kill all running containers | ```docker kill $(docker ps -q)``` |
 
 
-## ---Dockre Volumes---
+## ---Dockre Storage---
 | Purpose | Command |
 | --- | --- |
 | Create a volume | docker volume create <vol name> |
