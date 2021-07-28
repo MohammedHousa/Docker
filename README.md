@@ -13,7 +13,10 @@ Tutorials:
 8. [How to work wiht Docker Swarm](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-swarm---)
 
 
+
 ## ---Install Docker---
+
+
 | Purpose | Command |
 | --- | --- |
 | Install Docker | ```yum install docker -y``` |
@@ -29,6 +32,8 @@ Tutorials:
 
 
 ## ---Docker Images---
+
+
 | Purpose | Command |
 | --- | --- |
 | List images | ```docker images``` |
@@ -40,8 +45,11 @@ Tutorials:
 | Remove all images | ```docker rmi $(docker images -q)```|
 
 
+
 ## ---Docker Containers---
-Containers are isolated execution environments
+Containers are isolated execution environments.
+
+
 | Purpose | Command |
 | --- | --- |
 | List continers | ```docker ps -a``` |
@@ -58,8 +66,11 @@ Containers are isolated execution environments
 | kill all running containers | ```docker kill $(docker ps -q)``` |
 
 
+
 ## ---Docker Storage---
 Docker has two options for containers to store files in the host machine, so that the files are persisted even after the container stops: volumes, and bind mounts.
+
+
 | Purpose | Command |
 | --- | --- |
 | Create a volume | ```docker volume create <vol name>``` |
@@ -69,6 +80,8 @@ Docker has two options for containers to store files in the host machine, so tha
 | Start a container with a new volume | ```docker run -d --name devtest --mount source=myvol2,target=/app nginx:latest``` |
 | Start a container with an existing volume | ```docker run -d --name devtest -v /home/ec2-user/storage:/mount ubuntu``` |
 | Remove unused volumes| ```docker volume prune```|
+
+
 
 ## ---Docker File---
 #### Create a dockerfile ```vim dockerfile```
@@ -89,6 +102,8 @@ ENV name DevOps
 <body> Hello world! </body>
 </html>
 ```
+
+
 | Purpose | Command |
 | --- | --- |
 | Build an image from dockerfile| ```docker build -t dockerfile . ``` |
@@ -96,8 +111,12 @@ ENV name DevOps
 
 #### To access the container ```http://publicIP:8080```
 
+
+
 ## ---Docker Swarm---
 Docker swarm is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines. One of the key benefits associated with the operation of a docker swarm is the high level of availability offered for applications.
+
+
 | Purpose | Command |
 | --- | --- |
 | Initialize a swarm | docker swarm init |
