@@ -107,7 +107,7 @@ ENV name DevOps
 Docker swarm is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines. One of the key benefits associated with the operation of a docker swarm is the high level of availability offered for applications.
 | Purpose | Command |
 | --- | --- |
-| Initialize a swarm | docker swarm init |
+| Initialize a swarm | ```docker swarm init``` |
 | Join a node to a swarm | ```docker swarm join --token <token> HOST:PORT``` |
 | Leaves the swarm | ```docker swarm leave --force``` |
 | List nodes in the swarm | ```dokcer node ls``` |
