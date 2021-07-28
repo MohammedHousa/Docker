@@ -41,6 +41,7 @@ Tutorials:
 
 
 ## ---Docker Containers---
+Containers are isolated execution environments
 | Purpose | Command |
 | --- | --- |
 | List continers | ```docker ps -a``` |
