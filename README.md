@@ -3,13 +3,15 @@ Docker is a set of platform as a service products that use OS-level virtualizati
 
 GitHub Repo: https://github.com/MohammedHousa/Docker
 
+YouTube Playlist: https://www.youtube.com/playlist?list=PLUy8DvyX4nDHS1GyzRwN8OhbC0JoJwqPA
+
 Topics:
-1. [How to Install Docker on Linux](https://github.com/MohammedHousa/Docker/blob/main/README.md#install-docker) https://youtu.be/3RSecncf8JM
-2. [How to work with Docker Images](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-images) https://youtu.be/nacHWr1xdM4
-3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-containers) https://youtu.be/01u6ZY4aaUI
-4. [How to work with Docker Storage](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-storage) https://youtu.be/U64mtDTGS9c
-6. [How to work with Docker File](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-file) https://youtu.be/HmkGqSzHXUU
-7. [How to work with Docker Swarm](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-swarm) https://youtu.be/1Hr41hJpJkQ
+1. [How to Install Docker on Linux](https://github.com/MohammedHousa/Docker/blob/main/README.md#install-docker) 
+2. [How to work with Docker Images](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-images) 
+3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-containers) 
+4. [How to work with Docker Storage](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-storage) 
+6. [How to work with Docker File](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-file) 
+7. [How to work with Docker Swarm](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-swarm) 
 
 
 
