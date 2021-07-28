@@ -45,13 +45,13 @@ Tutorials:
 | Purpose | Command |
 | --- | --- |
 | List continers | ```docker ps -a``` |
-| Create a container form an image | ```docker run -it -d --name <container> <img>``` |
+| Create a container form an image | ```docker run -it -d --name server1 ubuntu``` |
 | Rename container | ```docker rename <container> <new name>``` |
 | Stop container | ```docker stop <container>``` |
 | Start container | ```docker start <continer>``` |
 | Restart container | ```docker restart <container>``` |
 | Execute container | ```docker exec -it <container> bash``` |
-| Create a container with a link | ```docker run -it -d --name <container> --link <name or id> <img>``` |
+| Create a container with a link | ```docker run -it --name server2 --link server1 ubuntu``` |
 | Create an image from a container | ```docker commit <container> <new-img-name>``` |
 | Remove container | ```docker rm <container>``` |
 | Removes all stopped containers | ```docker container prune``` |
