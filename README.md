@@ -9,7 +9,7 @@ Topics:
 3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-containers)
 4. [How to work with Docker Storage](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-storage)
 6. [How to work with Docker File](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-file)
-7. [How to work wiht Docker Swarm](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-swarm)
+7. [How to work with Docker Swarm](https://github.com/MohammedHousa/Docker/blob/main/README.md#docker-swarm)
 
 
 
