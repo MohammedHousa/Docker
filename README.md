@@ -14,9 +14,7 @@ Tutorials:
 
 
 
-## ---Install Docker---
-
-
+# Install Docker
 | Purpose | Command |
 | --- | --- |
 | Install Docker | ```yum install docker -y``` |
@@ -31,9 +29,7 @@ Tutorials:
 
 
 
-## ---Docker Images---
-
-
+# Docker Images
 | Purpose | Command |
 | --- | --- |
 | List images | ```docker images``` |
@@ -46,10 +42,8 @@ Tutorials:
 
 
 
-## ---Docker Containers---
+# Docker Containers
 Containers are isolated execution environments.
-
-
 | Purpose | Command |
 | --- | --- |
 | List continers | ```docker ps -a``` |
@@ -67,10 +61,8 @@ Containers are isolated execution environments.
 
 
 
-## ---Docker Storage---
+# Docker Storage
 Docker has two options for containers to store files in the host machine, so that the files are persisted even after the container stops: volumes, and bind mounts.
-
-
 | Purpose | Command |
 | --- | --- |
 | Create a volume | ```docker volume create <vol name>``` |
@@ -83,7 +75,7 @@ Docker has two options for containers to store files in the host machine, so tha
 
 
 
-## ---Docker File---
+# Docker File
 #### Create a dockerfile ```vim dockerfile```
 ```
 FROM ubuntu
@@ -103,7 +95,6 @@ ENV name DevOps
 </html>
 ```
 
-
 | Purpose | Command |
 | --- | --- |
 | Build an image from dockerfile| ```docker build -t dockerfile . ``` |
@@ -113,10 +104,8 @@ ENV name DevOps
 
 
 
-## ---Docker Swarm---
+# Docker Swarm
 Docker swarm is a container orchestration tool, meaning that it allows the user to manage multiple containers deployed across multiple host machines. One of the key benefits associated with the operation of a docker swarm is the high level of availability offered for applications.
-
-
 | Purpose | Command |
 | --- | --- |
 | Initialize a swarm | docker swarm init |
