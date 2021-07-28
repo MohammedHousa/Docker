@@ -47,13 +47,13 @@ Containers are isolated execution environments.
 | Purpose | Command |
 | --- | --- |
 | List continers | ```docker ps -a``` |
-| Create a container form an image | ```docker run -it -d -p 8080:80 --name server1 ubuntu``` |
+| Create a container form an image | ```docker run -it -d -p 8080:80 --name service1 httpd``` |
 | Rename container | ```docker rename <container> <new name>``` |
 | Stop container | ```docker stop <container>``` |
 | Start container | ```docker start <continer>``` |
 | Restart container | ```docker restart <container>``` |
+| Create a container with a link | ```docker run -it -d --name server2 --link service2 ubuntu``` |
 | Execute container | ```docker exec -it <container> bash``` |
-| Create a container with a link | ```docker run -it --name server2 --link server1 ubuntu``` |
 | Create an image from a container | ```docker commit <container> <new-img-name>``` |
 | Remove container | ```docker rm <container>``` |
 | Removes all stopped containers | ```docker container prune``` |
@@ -69,8 +69,8 @@ Docker has two options for containers to store files in the host machine, so tha
 | List volumes | ```docker volume ls``` |
 | Inspect a volume | ```docker volume inspect <vol name>``` |
 | Remove a volume | ```docker volume rm <vol name>``` |
-| Start a container with a new volume | ```docker run -d --name devtest --mount source=myvol2,target=/app nginx:latest``` |
-| Start a container with an existing volume | ```docker run -d --name devtest -v /home/ec2-user/storage:/mount ubuntu``` |
+| Start a container with a new volume | ```docker run -d --name service1 --mount source=vol1,target=/app nginx``` |
+| Start a container with an existing volume | ```docker run -it -d --name service2 -v /home/ec2-user/storage:/testfile ubuntu``` |
 | Remove unused volumes| ```docker volume prune```|
 
 
