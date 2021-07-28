@@ -6,7 +6,7 @@ GitHub Repo:
 Tutorials:
 1. [How to Install Docker on Linux](https://github.com/MohammedHousa/Docker/blob/main/README.md#---install-docker---)
 2. [How to work with Docker Images](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-images---)
-3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-container---)
+3. [How to work with Docker Containers](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-containers---)
 4. [How to work with Docker Storage](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-storage---)
 6. [How to work with Docker File](https://github.com/MohammedHousa/Docker/blob/main/README.md#---docker-file---)
 7. How to work with Docker Compose
@@ -41,7 +41,7 @@ Tutorials:
 | Remove all images | ```docker rmi $(docker images -q)```|
 
 
-## ---Dockre Container---
+## ---Docker Containers---
 | Purpose | Command |
 | --- | --- |
 | List continers | ```docker ps -a``` |
@@ -58,7 +58,7 @@ Tutorials:
 | kill all running containers | ```docker kill $(docker ps -q)``` |
 
 
-## ---Dockre Storage---
+## ---Docker Storage---
 | Purpose | Command |
 | --- | --- |
 | Create a volume | docker volume create <vol name> |
@@ -69,7 +69,7 @@ Tutorials:
 | Start a container with an existing volume | docker run -d --name devtest -v /home/ec2-user/storage:/mount ubuntu |
 | Remove unused volumes| docker volume prune|
 
-## ---Dockre File---
+## ---Docker File---
 #### Create a dockerfile ```vim dockerfile```
 ```
 FROM ubuntu
