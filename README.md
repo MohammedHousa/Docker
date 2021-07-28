@@ -45,7 +45,7 @@ Tutorials:
 | Purpose | Command |
 | --- | --- |
 | List continers | ```docker ps -a``` |
-| Create a container form an image | ```docker run -it -d --name server1 ubuntu``` |
+| Create a container form an image | ```docker run -it -d -p 8080:80 --name server1 ubuntu``` |
 | Rename container | ```docker rename <container> <new name>``` |
 | Stop container | ```docker stop <container>``` |
 | Start container | ```docker start <continer>``` |
