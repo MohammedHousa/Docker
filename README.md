@@ -97,7 +97,7 @@ ENV name DevOps
 | Purpose | Command |
 | --- | --- |
 | Build an image from dockerfile| ```docker build -t dockerfile . ``` |
-| Create a container form the image | docker run -d -p 8080:80 demodockerfile |
+| Create a container form the image | ```docker run -d -p 8080:80 dockerfile``` |
 
 #### To access the container ```http://publicIP:8080```
 
